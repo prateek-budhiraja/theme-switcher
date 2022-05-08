@@ -13,15 +13,21 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+.light {
   color: #303952;
 }
 
-
-
-
-.theme-purple {
-  background-color: #D6A2E8;
+.dark {
+  color: #f1f2f6;
 }
+
+/* Background colors for App */
+.theme-blue {
+  background-color: #3c6382;
+}
+
 
 .theme-white {
   background-color: #f1f2f6;
@@ -31,10 +37,12 @@ a {
   background-color: #596275;
 }
 
+
 .theme-green {
-  background-color: #33d9b2;
+  background-color: #9AECDB;
 }
 
+ /* CSS for the color buttons */
 .color-container {
   padding-top: 50px;
   margin: 0 auto;
@@ -54,25 +62,26 @@ a {
   border: 1px solid #fff;
 }
 
+/* Background colors for blog */
 .color-white {
   background-color: #dfe4ea;
+  color: #303952;
 }
 
 .color-black {
   background-color: #303952;
-  color: #fff;
+  color: #f1f2f6;
 }
 
-.color-purple {
-  background-color: #82589F;
-  color: #fff;
+.color-blue {
+  background-color: #0a3d62;
+  color: #f1f2f6;
 }
 
 .color-green {
-  background-color: #218c74;
-  color: #fff;;
+  background-color: #58B19F;
+  color: #1e272e;
 }
-
 
 
 .content {
@@ -87,9 +96,3 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-
-
-
-
-
-

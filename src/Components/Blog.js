@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import colorContext from "../Context/colorContext";
 
+const Blog = () => {
+    const {currTheme} = useContext(colorContext);
 
-const Blog = ({theme}) => {
     return(
-        <div className={`content color-${theme}`}>
+        <div className={`content color-${currTheme}`}>
             <p>
             Why is a man given a better chance to live than swine or other animals? Why is a highly posted government officer given better facilities for a comfortable life than an ordinary clerk? The answer is very simple: the important officer has to discharge duties of a more responsible nature than those of an ordinary clerk. Similarly, the human being has to discharge higher duties than the animals, who are always busy with filling their hungry stomachs. But by the laws of nature, the modern animalistic standard of civilization has only increased the problems of filling the stomach. When we approach some of these polished animals for spiritual life, they say that they only want to work for the satisfaction of their stomachs and that there is no necessity of inquiring about the Godhead. Yet despite their eagerness to work hard, there is always the question of unemployment and so many other impediments incurred by the laws of nature. Despite this, they still denounce the necessity of acknowledging the Godhead.
             <br/><br/>
